@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 20px;
+  width: 700px;;;
+}
+
+h1 {
+  color: deepskyblue;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  display: inline-block;
+  padding-left: 0px;
+  width: 600px;
+}
+button:active {
+  opacity: 50%;
+}
+
+button:hover{
+  opacity: 70%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: deepskyblue;
+  margin: 5px; 
+  padding: 10px;
+}
+li {
+  display: flex;
+  justify-Content: space-between;
+  align-Items: center;
+  color: deeppink;
+  width: 95%;
+  border-radius: 5px;
+  border: lightgray solid 1px;
+  background-color:white;
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+}
+
+li button{
+  background-color:hotpink;
+}
+
+input {
+  color:steelblue;
+  width: 99%;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 5px;
+  text-align: start;
+  padding: 10px;
+  margin: 5px;
+}
+
+input:focus {
+  outline: 2px solid deepskyblue;
+}
